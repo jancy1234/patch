@@ -333,7 +333,10 @@ br.clear {
 	border: 2px solid #444;
 	display: inline-block;	
 }
-
+#home{
+	background-color: #23D3D3;
+	padding: 80px;
+}
 	
 
 
