@@ -1,0 +1,359 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+
+input,
+textarea,
+select {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color: #1C2C40;
+}
+
+a:hover,
+.submit:hover {
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+
+.thumb {
+	display: block;
+}
+
+.thumb img {
+	display: block;
+	width: 100%;
+}
+
+p {
+	line-height: 1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 400;
+}
+
+.hidden {
+	display: none;
+}
+
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	/* max-width:1040px; */
+}
+
+@font-face {
+	font-family: 'GT-Eesti';
+	src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+	src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'GT-Eesti';
+	src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+	src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'GT-Eesti';
+	src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+	src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'GT-Eesti';
+	src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+	src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal
+}
+
+::placeholder {
+	color: #C0CCDA;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #C0CCDA;
+}
+
+::-ms-input-placeholder {
+	color: #C0CCDA;
+}
+
+:root {
+	--main-bg-color: #23D3D3;
+	--main-heading-color: #1C2C40;
+}
+
+#main {
+	padding: 0;
+	margin: 0;
+}
+
+#main .wrapper {
+	width: 90%;
+}
+
+#main header {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+}
+
+#main header div.left {
+	display: flex;
+}
+
+#main header div.left h1 {
+	margin-right: -54px;
+	margin-bottom: 35px;
+}
+
+#main header div.left h1 a {
+	display: block;
+	margin-top: 30px;
+}
+#main header div.left h1 a img {
+	text-align: center;
+    margin-top: 10px;
+	width: 58%;  
+}
+#main header div.left ul {
+	display: flex;
+	align-items: center;
+}
+#main header div.left ul li {
+	display: flex;
+	width: 160px;
+	justify-content: space-between;
+}
+#main header div.right {
+	width: 14%;
+}
+
+#main header div.right ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+#main header div.right ul li {	
+
+}
+
+#main header div.right ul li h4 {
+	text-align: center;
+	margin-top: 10px;
+	margin-left: -35px;
+}
+#main header div.right ul li button {
+	padding: 12px 17px;
+	background-color: #23D3D3;
+	border-radius: 24px;
+	margin-bottom: 22px;
+}
+#spolight{
+	width: 100%;
+}
+#spolight section.container{
+	
+
+}
+#spolight section.container h1{
+	font-size: 48px;
+    font-weight: bold;
+    margin-top: 132px;
+    margin-left: 132px;
+
+}
+#spolight section.container p{
+	margin-left: 136px;
+    margin-top: 25px;
+    font-size: 20px;
+	margin-bottom: 60PX; 
+}
+#spolight section.container a.button{
+	margin-left: 135px;
+    font-size: 23px;
+    border-radius: 40px;
+    background-color: #23D3D3;
+	padding: 20px 19px;
+	color: azure;
+	text-align: center;
+}
+.one {
+	display: flex;
+	margin-left: 2px;
+	margin-top: 20px;
+}
+.one div img {
+	margin-top: 26px;
+	margin-left: 20px;
+}
+#spolight section.container .main {
+    display: flex;
+    width:100%;
+}
+#spolight section.container .main .left{
+	width: 50%;
+}
+#spolight section.container .main .right{
+	width: 50%;
+}
+#spolight section.container .main .right img{
+	 width: 125%;
+    margin-left: -299px
+}
+#one{
+	padding: 0;
+	margin: 0;
+}
+#service{
+	margin-left: 450px;
+}
+#service{
+	
+	
+	
+
+}
+#service section.top{
+
+}
+#service section.top .wrapper{
+	
+
+}
+#service section.top .arrow{
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px 20px;
+
+}
+#service section.top .img{
+	box-shadow: 0px 4px 10px 1px rbg(0,0,0,3);
+	border-radius: 50%;
+}
+#service section.top h6{
+	text-align: center;
+	font-size: 21px;
+
+}
+#service section.top h3{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 45px;
+	font-weight:bold;
+}
+#service .contant{
+	background-image: url(../images/whatis-bg.jpg);
+	background-position:right;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	background-size: auto 765px;
+	margin-right: 40px;			
+}
+#service .contant .item{
+	margin-top: 50px;
+	margin-left: 100px;		
+}
+#service .contant .item h4{
+	font-size:19px;
+	font-weight: bold;
+
+}
+#service .contant .item h4 span.lable{
+	background-color: #23D3D3;
+    color: white;
+    font-size:14px;
+    padding:4px 9px;
+    margin-right:10px;
+	border-radius: 8px;	
+	font-weight:bold ;	
+	/* margin-left: 80px; */
+}
+#service .contant .item p{
+	width: 40%;
+	margin-top: 25px;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+#service .contant .item a.button{
+	font-size: 15px;
+	font-family: 400px;
+	padding: 7px 15px;
+	border-radius: 20px;
+	border: 2px solid #444;
+	display: inline-block;	
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
